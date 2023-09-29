@@ -1,0 +1,11 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-detail {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}

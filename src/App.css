@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+.f-18 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Outfit";
+  line-height: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.f-32 {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Outfit";
+  line-height: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.f-36 {
+  font-size: 2.25rem;
+  font-weight: 500;
+  font-family: "Outfit";
+  line-height: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.f-64 {
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Outfit";
+  line-height: normal;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.green-text {
+  font-size: 2.25rem;
+  font-weight: 700;
+  font-family: "Outfit";
+  line-height: normal;
+  color: #11c4a3;
 }
