@@ -9,3 +9,14 @@
   justify-content: center;
   flex-direction: row;
 }
+
+.about-heading {
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .about-detail {
+    display: flex;
+    flex-direction: column !important;
+  }
+}

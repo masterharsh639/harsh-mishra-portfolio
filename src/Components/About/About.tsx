@@ -5,7 +5,7 @@ import backgroundShade from "../../assest/backgroudImage.svg";
 const About = () => {
   return (
     <Grid container className="about-section">
-      <Grid item xs={8}>
+      <Grid item xs={12} className="about-heading">
         <p>
           <span className="f-32">All</span>{" "}
           <span className="green-text">About</span>{" "}
@@ -13,7 +13,7 @@ const About = () => {
           <span className="green-text">Experience</span>{" "}
         </p>
       </Grid>
-      <Grid item xs={8}>
+      <Grid item xs={12}>
         <p>
           <button>About me</button>
           <button>Experience</button>
@@ -27,19 +27,19 @@ const About = () => {
         </Grid>
         <Grid xs={12} sm={5}>
           <ul>
-            <li>
+            <li className="f-18">
               Hello! My name is Mohit Sehrawat & I enjoy creating things that
               live on the internet. I'm a passionate Developer, with strong
               administrative & communication skills, good attention to detail &
               the ability to write efficient code.
             </li>
-            <li>
+            <li className="f-18">
               Hello! My name is Mohit Sehrawat & I enjoy creating things that
               live on the internet. I'm a passionate Developer, with strong
               administrative & communication skills, good attention to detail &
               the ability to write efficient code.
             </li>
-            <li>
+            <li className="f-18">
               Hello! My name is Mohit Sehrawat & I enjoy creating things that
               live on the internet. I'm a passionate Developer, with strong
               administrative & communication skills, good attention to detail &

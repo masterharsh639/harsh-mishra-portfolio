@@ -33,3 +33,17 @@
   line-height: normal;
   color: #11c4a3;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .f-18 {
+    text-align: center;
+  }
+
+  .f-32 {
+    text-align: center;
+  }
+
+  .f-36 {
+    text-align: center;
+  }
+}

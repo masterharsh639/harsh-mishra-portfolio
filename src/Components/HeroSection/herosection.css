@@ -4,22 +4,28 @@
   flex-direction: row;
   align-items: center;
   background-color: #e2e8f0;
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 .resume-button {
   color: #ffffff;
   background-color: #11c4a3;
   font-size: 20px;
   font-weight: 500;
-  font-family: 'Outfit';
+  font-family: "Outfit";
   padding-inline: 30px;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-radius: 1rem!important;
+  border-radius: 1rem !important;
   width: 50%;
 }
 
 .background-logo {
   width: 300px;
   height: 300px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .resume-button {
+    text-align: center;
+  }
 }
