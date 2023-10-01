@@ -25,7 +25,8 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .resume-button {
+  .button-resume,
+  .ecllipse {
     text-align: center;
   }
 }

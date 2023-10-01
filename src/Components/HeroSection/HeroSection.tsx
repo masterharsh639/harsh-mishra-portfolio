@@ -11,12 +11,12 @@ const HeroSection = () => {
         <p className="f-36">
           I am <span className="green-text">Full Stack Developer.</span>
         </p>
-        <p>
+        <p className="button-resume">
           <button className="resume-button">Resume</button>
         </p>
       </Grid>
       <Grid item xs={12} sm={3}>
-        <p>
+        <p className="ecllipse">
           <img src={backgroundShade} alt="" className="background-logo" />
         </p>
       </Grid>

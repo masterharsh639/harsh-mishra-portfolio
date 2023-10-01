@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./Container/Header/Header";
 import HeroSection from "./Components/HeroSection/HeroSection";
 import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <HeroSection />
       <About />
+      <Contact />
     </Grid>
   );
 }
