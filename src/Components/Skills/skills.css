@@ -1,0 +1,31 @@
+.skills-section {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center;
+  padding: 3rem 0;
+  gap: 6rem;
+}
+
+.button-section {
+  display: flex;
+  gap: 3rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: inherit;
+}
+
+.button-css {
+  vertical-align: middle;
+  line-height: 1.2;
+  background: #11c4a3;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 5px;
+  color: #ffffff;
+  margin-right: 1rem;
+  font-size: 1rem;
+}
