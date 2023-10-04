@@ -5,6 +5,7 @@ import HeroSection from "./Components/HeroSection/HeroSection";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Skills from "./Components/Skills/Skills";
+import ProjectDetail from "./Components/ProjectDetail/ProjectDetail";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <HeroSection />
       <About />
+      <ProjectDetail />
       <Skills />
       <Contact />
     </Grid>

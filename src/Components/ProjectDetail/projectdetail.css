@@ -1,0 +1,19 @@
+.project-detail {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center;
+  gap: 4rem;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: inherit;
+  gap: 2rem;
+  justify-content: center;
+}
