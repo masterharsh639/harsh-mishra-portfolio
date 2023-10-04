@@ -2,6 +2,7 @@ import { Grid } from "@mui/material";
 import "./projectdetail.css";
 import CardDetail from "../../Container/DetailCard/CardDetail";
 import carhub from "../../assest/carhub.jpg";
+
 const data = [
   {
     image: carhub,
